@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yu.app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Base_Acitivity"
+            android:label="@string/base_name"/>
+        <activity android:name=".If_Activity"
+            android:label="@string/if_name"/>
+        <activity android:name=".Array_Acitivity"
+            android:label="@string/array_name"/>
+        <activity android:name=".Function_Acitivity"
+            android:label="@string/function_name"/>
+        <activity android:name=".Algorithms_Acitivity"
+            android:label="@string/algorithm_name"/>
+        <activity android:name=".Post_Activity"
+            android:label="@string/post_name"></activity>
+    </application>
+
+</manifest>

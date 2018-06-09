@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">玩转C语言</string>
+    <string name="base_name">基础知识</string>
+    <string name="if_name">条件和循环</string>
+    <string name="array_name">数据类型和数组</string>
+    <string name="function_name">函数</string>
+    <string name="algorithm_name">数据结构及算法</string>
+    <string name="post_name">Post Your Ideas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

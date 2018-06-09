@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <at.markushi.ui.CircleButton
+                android:id="@+id/btn_base"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                app:cb_color="@color/white"
+                android:src="@drawable/data3"
+                app:cb_pressedRingWidth="10dp"
+                android:layout_marginTop="10dp"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="基础知识"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="120dp">
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:orientation="vertical" >
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/btn_if"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    app:cb_color="@color/white"
+                    android:src="@drawable/data6"
+                    app:cb_pressedRingWidth="10dp" />
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="190dp"
+                    android:layout_height="30dp"
+                    android:text="条件和循环"
+                    android:typeface="monospace"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10sp"
+
+                    />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:orientation="vertical" >
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/btn_array"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                   android:layout_marginLeft="90dp"
+                    app:cb_color="@color/white"
+                    android:src="@drawable/data7"
+                    app:cb_pressedRingWidth="10dp" />
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="190dp"
+                    android:layout_height="30dp"
+                    android:text="数据类型，数组"
+                    android:typeface="monospace"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="60sp"
+                    />
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="120dp">
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:orientation="vertical" >
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/btn_func"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    app:cb_color="@color/white"
+                    android:src="@drawable/data4"
+                    app:cb_pressedRingWidth="10dp" />
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="190dp"
+                    android:layout_height="30dp"
+                    android:text="函数"
+                    android:typeface="monospace"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30sp"
+
+                    />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:orientation="vertical" >
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/btn_alg"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="90dp"
+                    app:cb_color="@color/white"
+                    android:src="@drawable/data2"
+                    app:cb_pressedRingWidth="10dp" />
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="190dp"
+                    android:layout_height="30dp"
+                    android:text="数据结构及算法"
+                    android:typeface="monospace"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="60sp"
+                    />
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <at.markushi.ui.CircleButton
+                android:id="@+id/btn_post"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                app:cb_color="@color/white"
+                android:src="@drawable/data1"
+                app:cb_pressedRingWidth="10dp"
+                android:layout_marginTop="10dp"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Post your ideas"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.LinearLayoutCompat>
+</android.support.constraint.ConstraintLayout>
